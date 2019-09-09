@@ -21,6 +21,17 @@
 	clear: both;
 }
 
+.img-responsive {
+	max-width: 100%;
+}
+
+figure {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
 [class*="col-"] {
 	padding: 0 10px;
 	margin-bottom: 20px;
@@ -190,5 +201,13 @@
 
 [class*="col-"] div {
 	background-color: lightgray;
+	height: 300px;
+}
+
+#bg-texture {
+	background-image: url("../img/texture.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: content-box;
 	height: 300px;
 }
