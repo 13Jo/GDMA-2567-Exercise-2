@@ -200,8 +200,15 @@ figure {
 }
 
 [class*="col-"] div {
-	background-color: #B2B8BF;
 	height: 300px;
+}
+
+.bg-light {
+	background-color: #C1D0DB;
+}
+
+.bg-dark {
+	background-color: #292B2E;
 }
 
 #bg-texture {
